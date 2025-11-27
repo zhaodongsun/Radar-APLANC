@@ -1,0 +1,8 @@
+torchvision==0.15.2
+tensorboard=2.12.1
+numpy==1.24.3
+transformers==4.32.1
+tqdm==4.65.0
+einops==0.7.0
+nltk==3.8.1
+datetime==5.2
