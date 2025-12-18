@@ -36,7 +36,7 @@ dataset
 |--- RHB_demo_fold3.pkl(folds pickle file)
 |--- RHB_demo_fold4.pkl(folds pickle file)
 ```
-RHB_demo_fold[index].pkl files are the data partitions we use for cross validation. RHB_Pseudo_Generate.py is used to generate Augumented pseudo labels after the first stage. You need to ensure that the fold_path in RHB_Pseudo_Generate.py is the same as that in the first stage train.py. You can train each fold by changing the fold_path in the train.py file. If you want to test the model, please change the fold_path in test.py after each fold training and run it. This will generate a temp_est.json and temp_ get.json file to store the predicted and true values of the test set for this fold model. After testing all four fold data, run CrossValData_combine.py and CrossValidation.py for cross validation testing.
+`RHB_demo_fold[index].pkl` files are the data partitions we use for cross validation. `RHB_Pseudo_Generate.py` is used to generate Augumented pseudo labels after the first stage. You need to ensure that the fold_path in `RHB_Pseudo_Generate.py` is the same as that in the first stage `train.py`. You can train each fold by changing the fold_path in the `train.py` file. If you want to test the model, please change the fold_path in `test.py` after each fold training and run it. This will generate a `temp_est.json` and `temp_ get.json` file to store the predicted and true values of the test set for this fold model. After testing all four fold data, run `CrossValData_combine.py` and `CrossValidation.py` for cross validation testing.
 ## Execution
 
 ### Training
