@@ -1,5 +1,5 @@
 # Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast
-This is the official code repository of our paper "Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast".
+This is the official code repository of our AAAI 2026 paper "Radar-APLANC: Unsupervised Radar-based Heartbeat Sensing via Augmented Pseudo-Label and Noise Contrast".
 The method does not require any ground truth for training.
 ## Prerequisite
 Please check `requirement.txt` for the required Python libraries.
